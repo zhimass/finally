@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #D9FFFF;
+}
+a{
+	text-decoration: none;
+}
+input{
+   background:none;  
+   outline:none;  
+   border:0px; 
+}
+header{
+	height: 50px;
+	background-color: #fff;
+}
+.left{
+	float: left;
+	margin-left: 10px;
+}
+.left a{
+	font-weight: bold;
+	color: #222;
+	line-height: 50px;
+	font-family:"LiSu";
+}
+.xian{
+	background-color: blue;
+	height: 3px;
+	width: 70px;
+	position: absolute;
+	margin-top: 47px;
+
+}
+section{
+	margin-top: 20px;
+}
+.one{
+	font-family:"LiSu";
+	color: #CCFF80;
+	font-size: 130px;
+	width: 260px;
+	margin: 0 auto;
+}
+.two{
+	margin: 0 auto;
+	width: 600px;
+}
+.jiantou{
+	font-size: 30px;
+	height: 30px;
+	width: 30px;
+	float: left;
+	position: relative;
+	bottom: 50px;
+	left: 25px;
+	display: none;
+}
+.two input{
+	width: 435px;
+	height: 40px;
+	padding: 10px 80px;
+	background-color: #fff;
+	border-radius: 5px;
+	font-size: 20px;
+	box-shadow: 0 8px 8px #D0D0D0;
+}
+input::-webkit-input-placeholder{
+	font-size: 20px;
+	color: #E0E0E0;
+	font-style: italic;
+}
+input:-ms-input-placeholder{
+	font-size: 20px;
+	color: #E0E0E0;
+	font-style: italic;
+}
+:-moz-placeholder {
+	font-size: 20px;
+	color: #E0E0E0;
+	font-style: italic;
+}
+::-moz-placeholder {
+	font-size: 20px;
+	color: #E0E0E0;
+	font-style: italic;
+}
+.three{
+	margin-top: 40px;
+}
+.small{
+	font-size: 10px;
+	color: #D0D0D0;
+	margin-top: 15px;
+	font-family:"LiSu";
+}
+.double{
+	width: 180px;
+	margin: 0 auto;
+}
+.write{
+	width: 120px;
+	margin: 0 auto;
+}
+.part{
+	width: 107px;
+	margin: 0 auto;
+}
+
+.right{
+	float: right;
+}
+.right a{
+	font-weight: bold;
+	color: #222;
+	line-height: 50px;
+	font-family:"LiSu";
+}
+.yun{
+	float: right;
+	background-image: url(images/yun.png);
+	height: 40px;
+	width: 85px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
